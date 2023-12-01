@@ -1,0 +1,24 @@
+{
+  "name": "cycraft",
+  "version": "1.0.0",
+  "description": "Prova de conceito integração do Cypress com TestCraft que usa IA para auxiliar no desenvimento do projeto de automação de testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabribarbosa09/Cypress-TestCraft.git"
+  },
+  "keywords": [
+    "npx",
+    "cypress",
+    "open"
+  ],
+  "author": "Gabriel Augusto Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabribarbosa09/Cypress-TestCraft/issues"
+  },
+  "homepage": "https://github.com/gabribarbosa09/Cypress-TestCraft#readme"
+}

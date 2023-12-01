@@ -1,0 +1,25 @@
+Positive Tests:
+  Verify that the login form appears correctly with two input fields, one for the user and one for the password.
+  Verify that the user can enter text in the 'Usuário' and 'Senha' input fields.
+  Verify that the user can submit the form by clicking the 'Entrar' button.
+  Verify that the user can reset the form by refreshing the page.
+  Verify that the 'Esqueci a senha' link redirects the user to the correct password recovery page.
+  Verify that the email link 'informacoes@upf.br' opens the default email client with the correct recipient.
+  Verify that clicking on the phone number link '(54) 33168100' initiates a call using the default phone app on a mobile device.
+
+Negative Tests:
+  Verify that the form does not submit if the 'Usuário' field is left blank.
+  Verify that the form does not submit if the 'Senha' field is left blank.
+  Verify that the form does not submit if both input fields are left blank.
+  Verify that the form does not submit if the 'Usuário' or 'Senha' fields contain special characters.
+  Verify that an error message appears if the user enters incorrect login information.
+  Verify that the form does not submit if the 'Usuário' field contains more than 250 characters.
+  Verify that the form does not submit if the 'Senha' field contains more than 250 characters.
+
+Creative Test Scenarios:
+  Verify the behavior of the form when the user enters the correct 'Usuário' but incorrect 'Senha'.
+  Verify the behavior of the form when the user enters the correct 'Senha' but incorrect 'Usuário'.
+  Verify the behavior of the form when the user enters a 'Usuário' that doesn't exist in the database.
+  Verify the behavior of the form when the user enters the 'Usuário' and 'Senha' in different case formats (e.g., all caps, all lowercase, mixed case).
+  Verify the behavior of the form when the user attempts to submit the form multiple times in quick succession.
+  Verify the behavior of the form when the user tries to submit the form after leaving the page idle for a long time.

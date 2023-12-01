@@ -1,0 +1,29 @@
+Issues
+Conformance Level A
+  - Issue: Missing form label
+  - Criteria: 3.3.2 Labels or Instructions
+  - Solution: Add a `<label>` element to each form input with a `for` attribute that matches the `id` of the corresponding input.
+
+Conformance Level AA
+  - Issue: Small font size for phone number
+  - Criteria: 1.4.4 Resize text
+  - Solution: Increase the font size for the phone number to at least 16px to ensure readability when page is zoomed to 200%.
+
+Conformance Level AAA
+  - Issue: No indication of required fields
+  - Criteria: 3.3.3 Error Suggestion
+  - Solution: Indicate which form fields are required. This can be done by adding a `required` attribute to the necessary input elements and including a visual indication, such as an asterisk (*) next to the label.
+
+
+Suggested Tests
+  - Test: Check color contrast
+  - Criteria: 1.4.3 Contrast (Minimum)
+  - Test Details: Use a color contrast checker to ensure that the contrast ratio between text color and background color is at least 4.5:1 for normal text and 3:1 for large text.
+
+  - Test: Check keyboard accessibility
+  - Criteria: 2.1.1 Keyboard
+  - Test Details: Navigate through the page using only a keyboard to ensure that all interactive elements are accessible and functional.
+
+  - Test: Check for meaningful sequence
+  - Criteria: 1.3.2 Meaningful Sequence
+  - Test Details: Disable CSS and check if the content still makes sense in the order it is presented.
